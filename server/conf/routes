@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET           /                                               controllers.Application.index
+
+# Login
+POST          /nuspay/login                                       controllers.WebServices.login
+
+# ItemService API
+GET           /nuspay/items_services                                    controllers.WebServices.listItemService
+POST          /nuspay/items_services/add                                controllers.WebServices.addItemService
+
+# Cart API
+POST          /nuspay/cart/items_services/:id/quantity/:quantity        controllers.WebServices.addCartItemService(id,quantity)
+GET           /nuspay/cart/items_services                               controllers.WebServices.listCartItemServices()
+DELETE        /nuspay/cart/items_services/:id                           controllers.WebServices.deleteCartItemService(id)
+PUT           /nuspay/cart/items_services/:id/quantity/:quantity        controllers.WebServices.updateCartItemService(id,quantity)
+
+GET           /assets/*file                                   controllers.Assets.versioned(path="/public", file: Asset)
+
+GET           /nuspay/swagger.json                                controllers.ApiHelpController.getResources
+
+GET           /docs/swagger-ui/*file                          controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
+
+# Websocket
+
+GET           /nuspay/cart/events                                 controllers.WebSockets.cartEventWS
