@@ -1,7 +1,7 @@
 <h1 align="center">
 
   <br>
-  <img src="./assets/Picture_1.png" alt="EnvisEdge"/ height="300" width="500">
+  <img src="./assets/NUS_pay.png" alt="NUS-PAY"/ height="300" width="500">
   <br>
   A one stop solution for NUS Payments and facility Bookings
   <br>
@@ -21,7 +21,18 @@ With NUSPay, we target to solve all financial related problems by making a singl
 ## View the SWAGGER API specs
  
 ## Main Page
+<img src="./assets/Swagger_main_page.png">
+  
+## API Execute
+<img src="./assets/Swagger_api_execute.png">
 
+## API_model
+<img src="./assets/API_model.png">
+  
+## Scala Models
+<img src="./assets/scala_models.png"> 
+  
+## SWAGGER API [LINK](https://nuspay.herokuapp.com/docs/swagger-ui/index.html?url=/nuspay/swagger.json#/Student_Cart_and_NUS_provided_services_and_items_related_API_documentation/updateCartItemService) 
 
 
  
