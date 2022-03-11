@@ -1,11 +1,9 @@
 <h1 align="center">
 
   <br>
-  <img src="./assets/Picture_1.png" alt="EnvisEdge"/ height="350" width="700">
+  <img src="./assets/Picture_1.png" alt="EnvisEdge"/ height="300" width="500">
   <br>
   A one stop solution for NUS Payments and facility Bookings
-  <br>
-  <br>
   <br>
   <br>
 
